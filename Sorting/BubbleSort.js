@@ -1,5 +1,5 @@
 // O(n^2) time | O(1) space
-const bubbleSort = array => {
+const BubbleSort = array => {
   let isSorted = true;
   let counter = 0;
   while (isSorted) {
