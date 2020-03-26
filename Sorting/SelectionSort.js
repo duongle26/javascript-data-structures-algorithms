@@ -1,5 +1,5 @@
 // O(n^2) time | O(1) space
-const selectionSort = array => {
+const SelectionSort = array => {
   for (let i = 0; i < array.length; i++) {
     let minIndx = i;
     for (let j = i; j < array.length; j++) {
