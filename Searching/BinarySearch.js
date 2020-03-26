@@ -1,5 +1,5 @@
 // O(log(n)) time | O(1) space
-const binarySearch = (array, target) => {
+const BinarySearch = (array, target) => {
   let start = 0;
   let end = array.length - 1;
 
