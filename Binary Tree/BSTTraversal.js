@@ -1,5 +1,5 @@
 // O(n) time | O(n) space
-const inOrderTraverse = (tree, array) => {
+const InOrderTraverse = (tree, array) => {
   if (tree) {
     inOrderTraverse(tree.left, array);
     array.push(tree.value);
@@ -9,7 +9,7 @@ const inOrderTraverse = (tree, array) => {
 };
 
 // O(n) time | O(n) space
-const preOrderTraverse = (tree, array) => {
+const PreOrderTraverse = (tree, array) => {
   if (tree) {
     array.push(tree.value);
     preOrderTraverse(tree.left, array);
@@ -19,7 +19,7 @@ const preOrderTraverse = (tree, array) => {
 };
 
 // O(n) time | O(n) space
-const postOrderTraverse = (tree, array) => {
+const PostOrderTraverse = (tree, array) => {
   if (tree) {
     postOrderTraverse(tree.left, array);
     postOrderTraverse(tree.right, array);
